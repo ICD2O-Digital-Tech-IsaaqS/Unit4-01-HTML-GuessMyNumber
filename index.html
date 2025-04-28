@@ -1,9 +1,32 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Title</title>
-  </head>
-  <body>
-    <p>Paragraph</p>
-  </body>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Guess the number, with JavaScript">
+  <meta name="keywords" content="Immaculata, ICD2O">
+  <meta name="author" content="Isaaq Simon">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="./favicon_io (13)/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon_io (13)/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./favicon_io (13)/favicon-16x16.png">
+  <link rel="manifest" href="./favicon_io (13)/site.webmanifest">
+  <title>Guess the Number!</title>
+  <!-- Link to external CSS file -->
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Guess the Number!</h1>
+        <p>Enter a number between 1 and 10:</p>
+        <!-- Input field for user to enter their guess -->
+        <input type="number" id="userGuess" min="1" max="10">
+        <!-- Button to submit the guess -->
+        <button onclick="checkGuess()">Submit Guess</button>
+        <!-- Paragraph to display result message -->
+        <p id="result"></p>
+    </div>
+
+    <!-- Link to external JavaScript file -->
+    <script src="./js/script.js"></script>
+</body>
 </html>
